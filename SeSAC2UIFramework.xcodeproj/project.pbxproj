@@ -11,6 +11,10 @@
 		0E1B53D828AB1BBF00901508 /* SeSAC2UIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1B53CD28AB1BBF00901508 /* SeSAC2UIFramework.framework */; };
 		0E1B53DD28AB1BBF00901508 /* SeSAC2UIFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B53DC28AB1BBF00901508 /* SeSAC2UIFrameworkTests.swift */; };
 		0E1B53DE28AB1BBF00901508 /* SeSAC2UIFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1B53D028AB1BBF00901508 /* SeSAC2UIFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E1B53E828AB1C3400901508 /* SeSACAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B53E728AB1C3400901508 /* SeSACAlert.swift */; };
+		0E1B541728AB285700901508 /* SeSACReusableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B541628AB285700901508 /* SeSACReusableProtocol.swift */; };
+		0E1B541928AB293D00901508 /* SeSACActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B541828AB293D00901508 /* SeSACActivityViewController.swift */; };
+		0E1B541B28AB2A2800901508 /* SeSACWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B541A28AB2A2800901508 /* SeSACWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		0E1B53D128AB1BBF00901508 /* SeSAC2UIFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SeSAC2UIFramework.docc; sourceTree = "<group>"; };
 		0E1B53D728AB1BBF00901508 /* SeSAC2UIFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeSAC2UIFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E1B53DC28AB1BBF00901508 /* SeSAC2UIFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSAC2UIFrameworkTests.swift; sourceTree = "<group>"; };
+		0E1B53E728AB1C3400901508 /* SeSACAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACAlert.swift; sourceTree = "<group>"; };
+		0E1B541628AB285700901508 /* SeSACReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACReusableProtocol.swift; sourceTree = "<group>"; };
+		0E1B541828AB293D00901508 /* SeSACActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACActivityViewController.swift; sourceTree = "<group>"; };
+		0E1B541A28AB2A2800901508 /* SeSACWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,10 @@
 			children = (
 				0E1B53D028AB1BBF00901508 /* SeSAC2UIFramework.h */,
 				0E1B53D128AB1BBF00901508 /* SeSAC2UIFramework.docc */,
+				0E1B53E728AB1C3400901508 /* SeSACAlert.swift */,
+				0E1B541628AB285700901508 /* SeSACReusableProtocol.swift */,
+				0E1B541828AB293D00901508 /* SeSACActivityViewController.swift */,
+				0E1B541A28AB2A2800901508 /* SeSACWebView.swift */,
 			);
 			path = SeSAC2UIFramework;
 			sourceTree = "<group>";
@@ -194,7 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E1B53E828AB1C3400901508 /* SeSACAlert.swift in Sources */,
+				0E1B541928AB293D00901508 /* SeSACActivityViewController.swift in Sources */,
 				0E1B53D228AB1BBF00901508 /* SeSAC2UIFramework.docc in Sources */,
+				0E1B541B28AB2A2800901508 /* SeSACWebView.swift in Sources */,
+				0E1B541728AB285700901508 /* SeSACReusableProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +412,7 @@
 		0E1B53E528AB1BBF00901508 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U8U4L6FXAF;
@@ -412,6 +429,7 @@
 		0E1B53E628AB1BBF00901508 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U8U4L6FXAF;
